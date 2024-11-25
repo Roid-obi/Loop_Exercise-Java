@@ -1,0 +1,98 @@
+<mxfile host="65bd71144e">
+    <diagram id="VlO4rry_FJor9oFMuLEt" name="Page-1">
+        <mxGraphModel dx="975" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="60" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="int i, n&lt;br&gt;double bil, jumlah, rata&lt;br&gt;char confirm" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="304" y="180" width="242" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="jumlah =0&lt;br&gt;i = 1&lt;br&gt;n = 0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="363" y="310" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Input(bil, 1)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="339" y="410" width="172" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="i ++&lt;br&gt;n ++" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Input(confirm)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#F8F8F2;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#F8F8F2;" edge="1" parent="1" source="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="390" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="750"/>
+                            <mxPoint x="250" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="confirm == 'y'" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="363" y="710" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="rata = jumlah / n" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Output(n)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="920" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Output(jumlah)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;fontColor=#F8F8F2;" edge="1" parent="1" source="18" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Output(rata)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="725" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#F8F8F2;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="725" width="40" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
